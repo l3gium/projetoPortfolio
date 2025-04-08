@@ -94,7 +94,7 @@ const FallingSquares = () => {
   }, []);
 
   return (
-    <div
+    <div className="-z-10"
       style={{
         position: 'fixed',
         top: 0,
