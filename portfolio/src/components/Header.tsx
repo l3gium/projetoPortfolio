@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link"; // Import Link
 import {
     Select,
     SelectContent,
@@ -39,11 +40,10 @@ export default function Header() {
                     </SelectContent>
                 </Select>
 
-                <a href="#" className="cursor-pointer">Sobre mim</a>
-                <a href="#" className="hover:underline">Projetos</a>
-                <a href="#" className="hover:underline">Contato</a>
+                <Link href="" className="hover:underline">Sobre mim</Link>
+                <Link href="" className="hover:underline">Projetos</Link>
+                <Link href="" className="hover:underline">Contato</Link>
             </div>
         </div>
     );
 }
-
